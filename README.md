@@ -21,9 +21,9 @@ Data Transformation, Single Output and Multioutput regression were performed to 
 Best train accuracy ~ 99.8% and Best validation accuracy ~ 99.2%
 
 ### Classification
-Nerual network were used to perform classification of the overall load
-Network contained one input layer, one hidden layer and one output layer
-Grid Search was difficult to run on my pc so Grid Search was done manually using for loops
+Nerual network were used to perform classification of the overall load<br>
+Network contained one input layer, one hidden layer and one output layer<br>
+Grid Search was difficult to run on my pc so Grid Search was done manually using for loops<br>
 KERAS package was used for this task
 
 #### Tuned parameters
