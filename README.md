@@ -6,14 +6,14 @@ The [energy efficiency](http://archive.ics.uci.edu/ml/datasets/energy+efficiency
 1. Load libraries
 2. Data Cleaning and Transformation
 3. Modeling <br>
-nbsp; nbsp; nbsp;nbsp;3.1 Regression
-nbsp; nbsp; nbsp;nbsp;3.2 Classification
+nbsp; nbsp; nbsp;nbsp;3.1 Regression<br>
+nbsp; nbsp; nbsp;nbsp;3.2 Classification<br>
 
 ### Details on Regression and Classification
 
 #### 3.1 Regression
-**Targets:** Two kinds; heating load, and cooling load
-**Explanatory Variables:** relative compactness, surface area, wall area, roof area, overall height, orientation, glazing area, glazing area distribution
+**Targets:** Two kinds; heating load, and cooling load <br>
+**Explanatory Variables:** relative compactness, surface area, wall area, roof area, overall height, orientation, glazing area, glazing area distribution<br>
 
 ##### Models
 1) Linear Regression (Single Output and Multiple Output)
@@ -28,10 +28,10 @@ nbsp; nbsp; nbsp;nbsp;3.2 Classification
 **Best train accuracy ~ 99.8% and Best validation accuracy ~ 99.2%**
 
 #### 3.2 Classification
-**Model:** Artificial Neural Network (One input layer, one hidden layer, and one output layer)
-**Classes:** 3 categories for both loads, broken down by looking at histograms
-**Parameter tuning:** Using grid search
-**Package:** KERAS
+**Model:** Artificial Neural Network (One input layer, one hidden layer, and one output layer)<br>
+**Classes:** 3 categories for both loads, broken down by looking at histograms<br>
+**Parameter tuning:** Using grid search<br>
+**Package:** KERAS<br>
 
 ##### Tuned parameters
 1) Epochs (200)
