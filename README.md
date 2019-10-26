@@ -6,8 +6,8 @@ The [energy efficiency](http://archive.ics.uci.edu/ml/datasets/energy+efficiency
 1. Load libraries
 2. Data Cleaning and Transformation
 3. Modeling <br>
-nbsp; nbsp; nbsp;nbsp;3.1 Regression<br>
-nbsp; nbsp; nbsp;nbsp;3.2 Classification<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 3.1 Regression<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 3.2 Classification<br>
 
 ### Details on Regression and Classification
 
