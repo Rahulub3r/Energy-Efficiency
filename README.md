@@ -1,6 +1,9 @@
 # Energy-Efficiency-Project
 
-The [energy efficiency](http://archive.ics.uci.edu/ml/datasets/energy+efficiency) dataset analysis is done using 12 different building shapes simulated in Ecotect.
+**Description:** The [energy efficiency](http://archive.ics.uci.edu/ml/datasets/energy+efficiency) dataset analysis is done using 12 different building shapes simulated in Ecotect.<br>
+**Software:** Python 3.7 <br>
+**Presentation:** Jupyter Notebook <br>
+**Goal:** Predicton of **Heating** and **Cooling Loads** for various buildings<br>
 
 ## Tasks
 1. Load libraries
