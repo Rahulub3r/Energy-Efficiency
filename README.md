@@ -2,14 +2,21 @@
 
 The [energy efficiency](http://archive.ics.uci.edu/ml/datasets/energy+efficiency) dataset analysis is done using 12 different building shapes simulated in Ecotect.
 
-## Regression and Classification
+## Tasks
+1. Load libraries
+2. Data Cleaning and Transformation
+3. Modeling <br>
+nbsp; nbsp; nbsp;nbsp;3.1 Regression
+nbsp; nbsp; nbsp;nbsp;3.2 Classification
 
-### Regression
+### Details on Regression and Classification
 
-Data Transformation, Single Output and Multioutput regression were performed to calculate **heating and cooling loads** on data which use features like roof area, orientation, glazing area, glazing area distribution, relative compatcness, surface area and overall height
+#### 3.1 Regression
+**Targets:** Two kinds; heating load, and cooling load
+**Explanatory Variables:** relative compactness, surface area, wall area, roof area, overall height, orientation, glazing area, glazing area distribution
 
-#### Models
-1) Linear Regression
+##### Models
+1) Linear Regression (Single Output and Multiple Output)
 2) Lasso Regression
 3) Ridge Regression
 4) Polynomial Regression
@@ -18,15 +25,15 @@ Data Transformation, Single Output and Multioutput regression were performed to 
 6) Random Forest Regressor
 7) Gradient Boosting Regressor (finally chose this)
 
-Best train accuracy ~ 99.8% and Best validation accuracy ~ 99.2%
+**Best train accuracy ~ 99.8% and Best validation accuracy ~ 99.2%**
 
-### Classification
-Nerual network were used to perform classification of the overall load<br>
-Network contained one input layer, one hidden layer and one output layer<br>
-Grid Search was difficult to run on my pc so Grid Search was done manually using for loops<br>
-KERAS package was used for this task
+#### 3.2 Classification
+**Model:** Artificial Neural Network (One input layer, one hidden layer, and one output layer)
+**Classes:** 3 categories for both loads, broken down by looking at histograms
+**Parameter tuning:** Using grid search
+**Package:** KERAS
 
-#### Tuned parameters
+##### Tuned parameters
 1) Epochs (200)
 2) Batch size (20)
 3) Optimizer (Nesterov Adam optimizer)
@@ -36,7 +43,7 @@ KERAS package was used for this task
 7) Drop out rate and weight constraint (0.3, 3)
 8) Number of neurons in the hidden layer (5)
 
-Best train accuracy ~ 96% and Best validation accuracy ~ 94%
+**Best train accuracy ~ 96% and Best validation accuracy ~ 94%**
 
 
 
